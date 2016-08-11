@@ -24,7 +24,8 @@ namespace Linq
 
             IEnumerable<Employee> developers = new Employee[]{
                 new Employee{Id=1, Name="Scott"},
-                new Employee{Id=2, Name="Chris"}
+                new Employee{Id=2, Name="Chris"},
+                new Employee{Id=4, Name="Andreas"}
             };
 
             IEnumerable<Employee> sales = new List<Employee>()
